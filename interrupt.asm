@@ -8,20 +8,19 @@ StopWDT		mov	 #WDTPW+WDTHOLD,&WDTCTL ; Stop WDT
 		bic.b	 #01000001b,&P1OUT		; Red LED off                
                 bic.b    #00011000b,&P2DIR     
                 bis.b    #00011000b,&P2OUT      ; Enable P2.3 and P2.4 as Input 
-		bis.b	 #00011000b,&P2IE	; Enable Interupt on P2.4                
+		bis.b	 #00011000b,&P2IE	; Enable Interupt on P2.4     
 		eint    			;
 HERE		jmp	 HERE			; wait
 ;-------------------------------------------------------------------------------
-; 		P2.4 Interrupt Service Routine
+; 		P2.4 and P2.3 Interrupt Service Routine
 ;-------------------------------------------------------------------------------
-PBISR		cmp.b   #00010000b,&P2IFG
+PBISR		call    #Delay
+                cmp.b   #00010000b,&P2IFG
                 jne     ToggleGreen
-                bic.b	#00010000b,&P2IFG	; clear interrupt flag
-                call    #Delay
+ToggleRed       bic.b	#00010000b,&P2IFG	; clear interrupt flag
 		xor.b	#1,&P1OUT		; toggle Red
                 jmp     Next
 ToggleGreen     bic.b	#00001000b,&P2IFG	; clear interrupt flag
-                call    #Delay
 		xor.b	#01000000b,&P1OUT       ; toggle Greens
 Next            nop                
 		reti				;return from ISR
@@ -31,7 +30,6 @@ Next            nop
 ;--------------------------------------------------------    
 Delay           mov             #50000, R14
 L1              nop
-                nop
                 dec             R14
                 jnz             L1
                 ret      

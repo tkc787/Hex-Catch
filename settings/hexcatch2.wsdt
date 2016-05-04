@@ -9,43 +9,60 @@
   <Desktop>
     <Static>
       <Build>
+        <PreferedWindows>
+          <Position>3</Position>
+          <ScreenPosX>0</ScreenPosX>
+          <ScreenPosY>0</ScreenPosY>
+          <Windows>
+            <Window>
+              <Factory>Debug-Log</Factory>
+            </Window>
+          </Windows>
+        </PreferedWindows>
         <ColumnWidth0>20</ColumnWidth0>
         <ColumnWidth1>978</ColumnWidth1>
         <ColumnWidth2>261</ColumnWidth2>
         <ColumnWidth3>65</ColumnWidth3>
       </Build>
       <Workspace>
+        <ColumnWidths>
+          <Column0>124</Column0>
+          <Column1>27</Column1>
+          <Column2>27</Column2>
+          <Column3>27</Column3>
+        </ColumnWidths>
         <PreferedWindows>
           <Position>1</Position>
           <ScreenPosX>0</ScreenPosX>
           <ScreenPosY>0</ScreenPosY>
           <Windows/>
         </PreferedWindows>
-        <ColumnWidths>
-          <Column0>105</Column0>
-          <Column1>27</Column1>
-          <Column2>27</Column2>
-          <Column3>27</Column3>
-        </ColumnWidths>
       </Workspace>
       <TerminalIO/>
+      <Debug-Log>
+        <PreferedWindows>
+          <Position>3</Position>
+          <ScreenPosX>0</ScreenPosX>
+          <ScreenPosY>0</ScreenPosY>
+          <Windows/>
+        </PreferedWindows>
+        <ColumnWidth0>20</ColumnWidth0>
+        <ColumnWidth1>1305</ColumnWidth1>
+      </Debug-Log>
+      <SourceBrowser>
+        <PreferedWindows>
+          <Position>3</Position>
+          <ScreenPosX>0</ScreenPosX>
+          <ScreenPosY>0</ScreenPosY>
+          <Windows/>
+        </PreferedWindows>
+      </SourceBrowser>
     </Static>
     <Windows>
       <Wnd2>
         <Tabs>
           <Tab>
-            <Identity>TabID-1435-24732</Identity>
-            <TabName>Build</TabName>
-            <Factory>Build</Factory>
-            <Session/>
-          </Tab>
-        </Tabs>
-        <SelectedTab>0</SelectedTab>
-      </Wnd2>
-      <Wnd3>
-        <Tabs>
-          <Tab>
-            <Identity>TabID-18749-24817</Identity>
+            <Identity>TabID-5466-29178</Identity>
             <TabName>Workspace</TabName>
             <Factory>Workspace</Factory>
             <Session>
@@ -53,6 +70,17 @@
                 <ExpandedNode>hexcatch</ExpandedNode>
               </NodeDict>
             </Session>
+          </Tab>
+        </Tabs>
+        <SelectedTab>0</SelectedTab>
+      </Wnd2>
+      <Wnd3>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-25918-29204</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
           </Tab>
         </Tabs>
         <SelectedTab>0</SelectedTab>
@@ -66,17 +94,29 @@
         </Tab>
         <Tab>
           <Factory>TextEditor</Factory>
+          <Filename>$WS_DIR$\asm.s43</Filename>
+          <XPos>0</XPos>
+          <YPos>0</YPos>
+          <SelStart>0</SelStart>
+          <SelEnd>0</SelEnd>
+          <XPos2>0</XPos2>
+          <YPos2>2</YPos2>
+          <SelStart2>838</SelStart2>
+          <SelEnd2>838</SelEnd2>
+        </Tab>
+        <Tab>
+          <Factory>TextEditor</Factory>
           <Filename>$WS_DIR$\hexcatch.asm</Filename>
           <XPos>0</XPos>
           <YPos>0</YPos>
           <SelStart>0</SelStart>
           <SelEnd>0</SelEnd>
           <XPos2>0</XPos2>
-          <YPos2>501</YPos2>
-          <SelStart2>25013</SelStart2>
-          <SelEnd2>25013</SelEnd2>
+          <YPos2>827</YPos2>
+          <SelStart2>28551</SelStart2>
+          <SelEnd2>28551</SelEnd2>
         </Tab>
-        <ActiveTab>1</ActiveTab>
+        <ActiveTab>2</ActiveTab>
       </Pane>
       <ActivePane>0</ActivePane>
       <Sizes>
@@ -91,9 +131,9 @@
       <Top>
         <Row0>
           <Sizes>
-            <Toolbar-00AA8540>
+            <Toolbar-00AF8970>
               <key>iaridepm.enu1</key>
-            </Toolbar-00AA8540>
+            </Toolbar-00AF8970>
           </Sizes>
         </Row0>
         <Row1>
@@ -295,85 +335,39 @@
           <Sizes/>
         </Row66>
         <Row67>
-          <Sizes/>
+          <Sizes>
+            <Toolbar-0E9EE350>
+              <key>debuggergui.enu1</key>
+            </Toolbar-0E9EE350>
+          </Sizes>
         </Row67>
         <Row68>
-          <Sizes/>
+          <Sizes>
+            <Toolbar-0E9EDD10>
+              <key>430fet1</key>
+            </Toolbar-0E9EDD10>
+          </Sizes>
         </Row68>
-        <Row69>
-          <Sizes/>
-        </Row69>
-        <Row70>
-          <Sizes/>
-        </Row70>
-        <Row71>
-          <Sizes/>
-        </Row71>
-        <Row72>
-          <Sizes/>
-        </Row72>
-        <Row73>
-          <Sizes/>
-        </Row73>
-        <Row74>
-          <Sizes/>
-        </Row74>
-        <Row75>
-          <Sizes/>
-        </Row75>
-        <Row76>
-          <Sizes/>
-        </Row76>
-        <Row77>
-          <Sizes/>
-        </Row77>
-        <Row78>
-          <Sizes/>
-        </Row78>
-        <Row79>
-          <Sizes/>
-        </Row79>
-        <Row80>
-          <Sizes/>
-        </Row80>
-        <Row81>
-          <Sizes/>
-        </Row81>
-        <Row82>
-          <Sizes/>
-        </Row82>
-        <Row83>
-          <Sizes/>
-        </Row83>
-        <Row84>
-          <Sizes/>
-        </Row84>
-        <Row85>
-          <Sizes/>
-        </Row85>
-        <Row86>
-          <Sizes/>
-        </Row86>
       </Top>
       <Left>
         <Row0>
           <Sizes>
-            <Wnd3>
+            <Wnd2>
               <Rect>
                 <Top>-2</Top>
                 <Left>-2</Left>
-                <Bottom>501</Bottom>
-                <Right>179</Right>
+                <Bottom>336</Bottom>
+                <Right>198</Right>
                 <x>-2</x>
                 <y>-2</y>
                 <xscreen>200</xscreen>
                 <yscreen>200</yscreen>
                 <sizeHorzCX>146628</sizeHorzCX>
                 <sizeHorzCY>345423</sizeHorzCY>
-                <sizeVertCX>132698</sizeVertCX>
-                <sizeVertCY>868739</sizeVertCY>
+                <sizeVertCX>146628</sizeVertCX>
+                <sizeVertCY>583765</sizeVertCY>
               </Rect>
-            </Wnd3>
+            </Wnd2>
           </Sizes>
         </Row0>
       </Left>
@@ -385,22 +379,22 @@
       <Bottom>
         <Row0>
           <Sizes>
-            <Wnd2>
+            <Wnd3>
               <Rect>
                 <Top>-2</Top>
                 <Left>-2</Left>
-                <Bottom>33</Bottom>
+                <Bottom>198</Bottom>
                 <Right>1366</Right>
                 <x>-2</x>
                 <y>-2</y>
                 <xscreen>1368</xscreen>
-                <yscreen>35</yscreen>
+                <yscreen>200</yscreen>
                 <sizeHorzCX>1002933</sizeHorzCX>
-                <sizeHorzCY>60449</sizeHorzCY>
+                <sizeHorzCY>345423</sizeHorzCY>
                 <sizeVertCX>146628</sizeVertCX>
                 <sizeVertCY>345423</sizeVertCY>
               </Rect>
-            </Wnd2>
+            </Wnd3>
           </Sizes>
         </Row0>
       </Bottom>

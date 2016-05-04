@@ -16,7 +16,7 @@
       </Build>
       <Workspace>
         <ColumnWidths>
-          <Column0>74</Column0>
+          <Column0>154</Column0>
           <Column1>27</Column1>
           <Column2>27</Column2>
           <Column3>27</Column3>
@@ -25,7 +25,7 @@
       <TerminalIO/>
     </Static>
     <Windows>
-      <Wnd2>
+      <Wnd0>
         <Tabs>
           <Tab>
             <Identity>TabID-30273-25649</Identity>
@@ -35,8 +35,8 @@
           </Tab>
         </Tabs>
         <SelectedTab>0</SelectedTab>
-      </Wnd2>
-      <Wnd3>
+      </Wnd0>
+      <Wnd1>
         <Tabs>
           <Tab>
             <Identity>TabID-8253-25652</Identity>
@@ -45,12 +45,13 @@
             <Session>
               <NodeDict>
                 <ExpandedNode>hexcatch</ExpandedNode>
+                <ExpandedNode>hexcatch/Output</ExpandedNode>
               </NodeDict>
             </Session>
           </Tab>
         </Tabs>
         <SelectedTab>0</SelectedTab>
-      </Wnd3>
+      </Wnd1>
     </Windows>
     <Editor>
       <Pane>
@@ -66,9 +67,9 @@
           <SelStart>0</SelStart>
           <SelEnd>0</SelEnd>
           <XPos2>0</XPos2>
-          <YPos2>18</YPos2>
-          <SelStart2>1484</SelStart2>
-          <SelEnd2>1484</SelEnd2>
+          <YPos2>6</YPos2>
+          <SelStart2>905</SelStart2>
+          <SelEnd2>905</SelEnd2>
         </Tab>
         <ActiveTab>1</ActiveTab>
         <Tab>
@@ -79,9 +80,9 @@
           <SelStart>0</SelStart>
           <SelEnd>0</SelEnd>
           <XPos2>0</XPos2>
-          <YPos2>156</YPos2>
-          <SelStart2>8041</SelStart2>
-          <SelEnd2>8693</SelEnd2>
+          <YPos2>24</YPos2>
+          <SelStart2>1985</SelStart2>
+          <SelEnd2>1985</SelEnd2>
         </Tab>
       </Pane>
       <ActivePane>0</ActivePane>
@@ -504,26 +505,158 @@
         <Row134>
           <Sizes/>
         </Row134>
+        <Row135>
+          <Sizes/>
+        </Row135>
+        <Row136>
+          <Sizes/>
+        </Row136>
+        <Row137>
+          <Sizes/>
+        </Row137>
+        <Row138>
+          <Sizes/>
+        </Row138>
+        <Row139>
+          <Sizes/>
+        </Row139>
+        <Row140>
+          <Sizes/>
+        </Row140>
+        <Row141>
+          <Sizes/>
+        </Row141>
+        <Row142>
+          <Sizes/>
+        </Row142>
+        <Row143>
+          <Sizes/>
+        </Row143>
+        <Row144>
+          <Sizes/>
+        </Row144>
+        <Row145>
+          <Sizes/>
+        </Row145>
+        <Row146>
+          <Sizes/>
+        </Row146>
+        <Row147>
+          <Sizes/>
+        </Row147>
+        <Row148>
+          <Sizes/>
+        </Row148>
+        <Row149>
+          <Sizes/>
+        </Row149>
+        <Row150>
+          <Sizes/>
+        </Row150>
+        <Row151>
+          <Sizes/>
+        </Row151>
+        <Row152>
+          <Sizes/>
+        </Row152>
+        <Row153>
+          <Sizes/>
+        </Row153>
+        <Row154>
+          <Sizes/>
+        </Row154>
+        <Row155>
+          <Sizes/>
+        </Row155>
+        <Row156>
+          <Sizes/>
+        </Row156>
+        <Row157>
+          <Sizes/>
+        </Row157>
+        <Row158>
+          <Sizes/>
+        </Row158>
+        <Row159>
+          <Sizes/>
+        </Row159>
+        <Row160>
+          <Sizes/>
+        </Row160>
+        <Row161>
+          <Sizes/>
+        </Row161>
+        <Row162>
+          <Sizes/>
+        </Row162>
+        <Row163>
+          <Sizes/>
+        </Row163>
+        <Row164>
+          <Sizes/>
+        </Row164>
+        <Row165>
+          <Sizes/>
+        </Row165>
+        <Row166>
+          <Sizes/>
+        </Row166>
+        <Row167>
+          <Sizes/>
+        </Row167>
+        <Row168>
+          <Sizes/>
+        </Row168>
+        <Row169>
+          <Sizes/>
+        </Row169>
+        <Row170>
+          <Sizes/>
+        </Row170>
+        <Row171>
+          <Sizes/>
+        </Row171>
+        <Row172>
+          <Sizes/>
+        </Row172>
+        <Row173>
+          <Sizes/>
+        </Row173>
+        <Row174>
+          <Sizes/>
+        </Row174>
+        <Row175>
+          <Sizes/>
+        </Row175>
+        <Row176>
+          <Sizes/>
+        </Row176>
+        <Row177>
+          <Sizes/>
+        </Row177>
+        <Row178>
+          <Sizes/>
+        </Row178>
       </Top>
       <Left>
         <Row0>
           <Sizes>
-            <Wnd3>
+            <Wnd1>
               <Rect>
                 <Top>-2</Top>
                 <Left>-2</Left>
-                <Bottom>299</Bottom>
-                <Right>148</Right>
+                <Bottom>504</Bottom>
+                <Right>228</Right>
                 <x>-2</x>
                 <y>-2</y>
                 <xscreen>150</xscreen>
                 <yscreen>237</yscreen>
                 <sizeHorzCX>109971</sizeHorzCX>
                 <sizeHorzCY>409326</sizeHorzCY>
-                <sizeVertCX>109971</sizeVertCX>
-                <sizeVertCY>519862</sizeVertCY>
+                <sizeVertCX>168622</sizeVertCX>
+                <sizeVertCY>873921</sizeVertCY>
               </Rect>
-            </Wnd3>
+            </Wnd1>
           </Sizes>
         </Row0>
       </Left>
@@ -535,22 +668,22 @@
       <Bottom>
         <Row0>
           <Sizes>
-            <Wnd2>
+            <Wnd0>
               <Rect>
                 <Top>-2</Top>
                 <Left>-2</Left>
-                <Bottom>235</Bottom>
+                <Bottom>30</Bottom>
                 <Right>1366</Right>
                 <x>-2</x>
                 <y>-2</y>
                 <xscreen>1368</xscreen>
-                <yscreen>237</yscreen>
+                <yscreen>32</yscreen>
                 <sizeHorzCX>1002933</sizeHorzCX>
-                <sizeHorzCY>409326</sizeHorzCY>
+                <sizeHorzCY>55268</sizeHorzCY>
                 <sizeVertCX>109971</sizeVertCX>
                 <sizeVertCY>409326</sizeVertCY>
               </Rect>
-            </Wnd2>
+            </Wnd0>
           </Sizes>
         </Row0>
       </Bottom>

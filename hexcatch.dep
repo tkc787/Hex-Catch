@@ -2,38 +2,24 @@
 
 <project>
   <fileVersion>2</fileVersion>
-  <fileChecksum>3862563935</fileChecksum>
+  <fileChecksum>439503381</fileChecksum>
   <configuration>
     <name>Debug</name>
     <outputs>
-      <file>$PROJ_DIR$\interrupt</file>
-      <file>$PROJ_DIR$\asm.s43</file>
-      <file>$TOOLKIT_DIR$\inc\msp430.h</file>
-      <file>$PROJ_DIR$\Debug\List\hexcatch.map</file>
+      <file>$TOOLKIT_DIR$\config\linker\lnk430g2553.xcl</file>
+      <file>$PROJ_DIR$\Debug\Obj\hexcatch.r43</file>
       <file>$TOOLKIT_DIR$\inc\msp430g2553.h</file>
       <file>$PROJ_DIR$\Debug\Exe\hexcatch.d43</file>
-      <file>$PROJ_DIR$\Debug\Obj\hexcatch.r43</file>
       <file>$PROJ_DIR$\hexcatch.asm</file>
-      <file>$TOOLKIT_DIR$\config\linker\lnk430g2553.xcl</file>
-      <file>$PROJ_DIR$\Debug\Obj\asm.r43</file>
-      <file>$PROJ_DIR$\Debug\Obj\interrupt.r43</file>
-      <file>$PROJ_DIR$\interrupt.asm</file>
+      <file>$PROJ_DIR$\Debug\List\hexcatch.map</file>
+      <file>$TOOLKIT_DIR$\inc\msp430.h</file>
     </outputs>
     <file>
       <name>[ROOT_NODE]</name>
       <outputs>
         <tool>
           <name>XLINK</name>
-          <file> 5 3</file>
-        </tool>
-      </outputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\asm.s43</name>
-      <outputs>
-        <tool>
-          <name>A430</name>
-          <file> 9</file>
+          <file> 3 5</file>
         </tool>
       </outputs>
     </file>
@@ -42,13 +28,13 @@
       <outputs>
         <tool>
           <name>XLINK</name>
-          <file> 3</file>
+          <file> 5</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>XLINK</name>
-          <file> 8 10</file>
+          <file> 0 1</file>
         </tool>
       </inputs>
     </file>
@@ -57,28 +43,13 @@
       <outputs>
         <tool>
           <name>A430</name>
-          <file> 6</file>
+          <file> 1</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>A430</name>
-          <file> 2 4</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\interrupt.asm</name>
-      <outputs>
-        <tool>
-          <name>A430</name>
-          <file> 10</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>A430</name>
-          <file> 2 4</file>
+          <file> 6 2</file>
         </tool>
       </inputs>
     </file>
@@ -89,6 +60,9 @@
     <forcedrebuild>
       <name>[MULTI_TOOL]</name>
       <tool>XLINK</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>[REBUILD_ALL]</name>
     </forcedrebuild>
   </configuration>
 </project>
